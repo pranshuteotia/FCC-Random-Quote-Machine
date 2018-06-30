@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: #ccc;
+}
+
+#quote-box {
+    position: absolute;
+    top: 40vh;
+    left: 10vw;
+    width: 80%;
+    padding: 2em;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: red;
+}
+
+#text { font-size: 32px; }
+
+.quote-author { text-align: right; margin: 1em;}
+
+#author {
+    background: blue;
+}
+
+#tweet-quote {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 0.5em;
+}
+
+#new-quote {
+    float: right;
+    height: 40px;
+    padding: 10px;
+    border-radius: 0.5em;
+    border: none;
+    font-weight: bold;
+}
