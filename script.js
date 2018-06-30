@@ -64,6 +64,7 @@ $(document).ready( function () {
     $('#new-quote').on('click', generateNewQuote());
 
     $('#tweet-quote').on('click', function() {
-        open('https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + quote.q + '" \n' + '--' + quote.a + '\n'));
+        let url = ('https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + quote.q + '" \n' + '--' + quote.a + '\n'));
+        $('#tweet-quote').attr('href', url);
     });
 });

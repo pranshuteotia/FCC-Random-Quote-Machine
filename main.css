@@ -45,4 +45,4 @@
     color: #eee;
 }
 
-button {outline: none;}
+button, a {outline: none; cursor: pointer}
